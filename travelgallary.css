@@ -1,0 +1,29 @@
+
+h2 {
+  color: #111;
+  font-size: 15px;
+}
+body {
+  background: white;
+  font-family: sans-sarif;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+img {
+  width: 25%;
+  margin: 1%;
+
+  border-radius: 5px;
+  vertical-align: middle;
+  transition: all 2s, transform 0.5s, box-shadow 0.5s;
+}
+img:hover {
+  box-shadow: 6px 6px 20px #222;
+  border-radius: 50px;
+}
+img:focus {
+  box-shadow: 12px 12px 25px #223;
+  width: 30%;
+  transform: none;
+}
